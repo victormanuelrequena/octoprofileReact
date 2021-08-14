@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import ghPolyglot from 'gh-polyglot';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import ListRepos from './ListRepos';
-import useParams from 'react-router-dom';
 
 const ReposStyled = styled.div`
 	width: 88%;
@@ -112,7 +111,7 @@ function filterRepos(filter = 'Stars') {
 };
 
 useEffect(() => {
-	const repos = new ghPolyglot('bchiang7');
+	const repos = new ghPolyglot(`${params.username}`);
 	repos.getAllRepos((err, repos) => {
 		if (err) {
 			console.error(`Error: ${err}`);

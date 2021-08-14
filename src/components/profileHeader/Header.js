@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Info from './Info';
 import Tags from './Tags';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import Fab from '@material-ui/core/Fab';
+import { Link } from 'react-router-dom';
 
 const HeaderStyled = styled.div`
 		width: 100%;
@@ -91,7 +93,11 @@ function Header({ profileData }) {
 	return (
 		<HeaderStyled>
 		<div className="top-bar">
+		<Link to="/octoprofileReact">
+		<Fab style={{background: '#323246'}}>
 			<ArrowBackIcon style={{color: '#fff', cursor: 'pointer'}} />
+		</Fab>
+		</Link>
 		</div>
 		<img className="avatar-image" src={profileData.avatar_url} alt="" />
 		<div className="box-social-media">
