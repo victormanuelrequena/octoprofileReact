@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/octoprofileReact/static/css/main.ff43da87.chunk.css",
+    "main.js": "/octoprofileReact/static/js/main.e7f3ebc0.chunk.js",
+    "main.js.map": "/octoprofileReact/static/js/main.e7f3ebc0.chunk.js.map",
+    "runtime-main.js": "/octoprofileReact/static/js/runtime-main.a6cc4e9b.js",
+    "runtime-main.js.map": "/octoprofileReact/static/js/runtime-main.a6cc4e9b.js.map",
+    "static/js/2.6055057c.chunk.js": "/octoprofileReact/static/js/2.6055057c.chunk.js",
+    "static/js/2.6055057c.chunk.js.map": "/octoprofileReact/static/js/2.6055057c.chunk.js.map",
+    "static/js/3.53e7132f.chunk.js": "/octoprofileReact/static/js/3.53e7132f.chunk.js",
+    "static/js/3.53e7132f.chunk.js.map": "/octoprofileReact/static/js/3.53e7132f.chunk.js.map",
+    "index.html": "/octoprofileReact/index.html",
+    "static/css/main.ff43da87.chunk.css.map": "/octoprofileReact/static/css/main.ff43da87.chunk.css.map",
+    "static/js/2.6055057c.chunk.js.LICENSE.txt": "/octoprofileReact/static/js/2.6055057c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6cc4e9b.js",
+    "static/js/2.6055057c.chunk.js",
+    "static/css/main.ff43da87.chunk.css",
+    "static/js/main.e7f3ebc0.chunk.js"
+  ]
+}
