@@ -14,7 +14,9 @@ const HeaderStyled = styled.div`
 			height: 80px;
 			display: flex;
 			align-items: center;
-			justify-content: center;
+			justify-content: flex-start;
+			padding: 0 2em;
+			box-sizing: border-box;
 		}
 		.avatar-image {
 			border: 8px solid #354099;
@@ -89,7 +91,7 @@ function Header({ profileData }) {
 	return (
 		<HeaderStyled>
 		<div className="top-bar">
-			<ArrowBackIcon style={{color: '#fff'}} />
+			<ArrowBackIcon style={{color: '#fff', cursor: 'pointer'}} />
 		</div>
 		<img className="avatar-image" src={profileData.avatar_url} alt="" />
 		<div className="box-social-media">

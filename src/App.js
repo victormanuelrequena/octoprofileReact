@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Router>
     <Switch>
-    <Route exact path="/">
+    <Route exact path="/octoprofileReact">
       <Searching
         setGlobalData={setGlobalData}
       />
