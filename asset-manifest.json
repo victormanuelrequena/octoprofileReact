@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/octoprofileReact/static/css/main.ff43da87.chunk.css",
-    "main.js": "/octoprofileReact/static/js/main.e7f3ebc0.chunk.js",
-    "main.js.map": "/octoprofileReact/static/js/main.e7f3ebc0.chunk.js.map",
+    "main.js": "/octoprofileReact/static/js/main.ee27d5d1.chunk.js",
+    "main.js.map": "/octoprofileReact/static/js/main.ee27d5d1.chunk.js.map",
     "runtime-main.js": "/octoprofileReact/static/js/runtime-main.a6cc4e9b.js",
     "runtime-main.js.map": "/octoprofileReact/static/js/runtime-main.a6cc4e9b.js.map",
     "static/js/2.6055057c.chunk.js": "/octoprofileReact/static/js/2.6055057c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a6cc4e9b.js",
     "static/js/2.6055057c.chunk.js",
     "static/css/main.ff43da87.chunk.css",
-    "static/js/main.e7f3ebc0.chunk.js"
+    "static/js/main.ee27d5d1.chunk.js"
   ]
 }
