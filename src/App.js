@@ -13,7 +13,7 @@ const App = () => {
         setGlobalData={setGlobalData}
       />
     </Route>
-    <Route path="/profile/:username" component={Profile} />
+    <Route path="/octoprofileReact/profile/:username" component={Profile} />
     </Switch>
     </Router>
   )
