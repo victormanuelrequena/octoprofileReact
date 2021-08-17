@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/octoprofileReact/static/css/main.ff43da87.chunk.css",
-    "main.js": "/octoprofileReact/static/js/main.0dfba4ec.chunk.js",
-    "main.js.map": "/octoprofileReact/static/js/main.0dfba4ec.chunk.js.map",
+    "main.js": "/octoprofileReact/static/js/main.2b8ca0e2.chunk.js",
+    "main.js.map": "/octoprofileReact/static/js/main.2b8ca0e2.chunk.js.map",
     "runtime-main.js": "/octoprofileReact/static/js/runtime-main.f4f67277.js",
     "runtime-main.js.map": "/octoprofileReact/static/js/runtime-main.f4f67277.js.map",
-    "static/js/2.b81d0a44.chunk.js": "/octoprofileReact/static/js/2.b81d0a44.chunk.js",
-    "static/js/2.b81d0a44.chunk.js.map": "/octoprofileReact/static/js/2.b81d0a44.chunk.js.map",
+    "static/js/2.3f0d4830.chunk.js": "/octoprofileReact/static/js/2.3f0d4830.chunk.js",
+    "static/js/2.3f0d4830.chunk.js.map": "/octoprofileReact/static/js/2.3f0d4830.chunk.js.map",
     "static/js/3.bb2186ea.chunk.js": "/octoprofileReact/static/js/3.bb2186ea.chunk.js",
     "static/js/3.bb2186ea.chunk.js.map": "/octoprofileReact/static/js/3.bb2186ea.chunk.js.map",
     "index.html": "/octoprofileReact/index.html",
     "static/css/main.ff43da87.chunk.css.map": "/octoprofileReact/static/css/main.ff43da87.chunk.css.map",
-    "static/js/2.b81d0a44.chunk.js.LICENSE.txt": "/octoprofileReact/static/js/2.b81d0a44.chunk.js.LICENSE.txt"
+    "static/js/2.3f0d4830.chunk.js.LICENSE.txt": "/octoprofileReact/static/js/2.3f0d4830.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f4f67277.js",
-    "static/js/2.b81d0a44.chunk.js",
+    "static/js/2.3f0d4830.chunk.js",
     "static/css/main.ff43da87.chunk.css",
-    "static/js/main.0dfba4ec.chunk.js"
+    "static/js/main.2b8ca0e2.chunk.js"
   ]
 }
