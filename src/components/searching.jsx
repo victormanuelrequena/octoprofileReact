@@ -41,7 +41,7 @@ const Searching = ({ setGlobalData }) => {
 			</SearchBox>
 			{
 				goToProfile && (
-					<Redirect from='/' to={`octoprofileReact/profile/${findProfile.username}`}></Redirect>
+					<Redirect from='/' to={`/octoprofileReact/profile/${findProfile.username}`}></Redirect>
 				)
 			}
 		</SearchingStyled>
