@@ -7,104 +7,6 @@ import langColors from '../styles/langColors';
 import ghPolyglot from 'gh-polyglot';
 import getTopStars from '../helps/getReposTopStars';
 
-const ChartStyled = styled.div`
-		max-width: 100%;
-		height: auto;
-		margin: auto;
-		padding: 0;
-		display: grid;
-		grid-template-columns: repeat(3, minmax(240px, 1fr));
-		grid-gap: 2em;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: space-between;
-		.chart-box {
-			min-width: 300px;
-			max-height: 500px;
-			border-radius: 6px;
-    		box-shadow: 0 5px 30px -15px rgba(0, 0, 0, 0.2);
-			padding: 0em 2em 2em 2em;
-			background: white;
-			header {
-				width: 100%;
-				display: flex;
-				justify-content: flex-start;
-				align-items: center;
-				h2 {
-					width: 100%;
-					display: inline-block;
-					font-family: 'Inter', sans-serif;
-					font-weight: 500;
-					font-size: 1.6rem;
-					margin: .6em .2em .6em .1em;
-					border-bottom: 2px dashed rgba(7, 7, 7, .2);
-				}
-			}
-		}
-		@media screen and (max-width: 1300px) {
-			.chart-box {
-			min-width: 210px;
-			max-height: 500px;
-			header {
-				h2 {
-					font-size: 1rem;
-				}
-			}
-			}
-		}
-
-		@media screen and (max-width: 1000px) {
-			grid-template-columns: repeat(2, minmax(240px, 1fr));
-			grid-template-rows: 1fr 1fr;
-			height: auto;
-			.chart-box {
-			min-width: 250px;
-			max-height: 500px;
-			header {
-				h2 {
-					font-size: 1.2rem;
-				}
-			}
-			}
-		}
-
-		@media screen and (max-width: 765px) {
-			grid-template-columns: repeat(1, minmax(240px, 1fr));
-			grid-template-rows: 1fr 1fr 1fr;
-			height: auto;
-			padding-top: 2em;
-			margin-top: 0em;
-			.chart-box {
-			min-width: 300px;
-			max-height: 500px;
-			header {
-				h2 {
-					font-size: 1.6rem;
-				}
-			}
-			}
-		}
-		@media screen and (max-width: 400px) {
-			.chart-box {
-				min-width: 240px;
-				max-height: 500px;
-			}
-		}
-	#grafica {
-		max-width: 400px;
-	}
-	// .top-language {
-	// 	border: 1px solid red;
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	.top-language-chart {
-	// 		border: 1px solid green;
-	// 		display: flex;
-	// 		flex-direction: row;
-	// 	}
-	// }
- `;
-
 function Chart() {
 	const [repos, setRepos] = useState([])
 	const [stats, setStats] = useState([]),
@@ -285,5 +187,103 @@ function Chart() {
 		</ChartStyled>
 	)
 }
+
+const ChartStyled = styled.div`
+		max-width: 100%;
+		height: auto;
+		margin: auto;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(240px, 1fr));
+		grid-gap: 2em;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		.chart-box {
+			min-width: 300px;
+			max-height: 500px;
+			border-radius: 6px;
+    		box-shadow: 0 5px 30px -15px rgba(0, 0, 0, 0.2);
+			padding: 0em 2em 2em 2em;
+			background: white;
+			header {
+				width: 100%;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				h2 {
+					width: 100%;
+					display: inline-block;
+					font-family: 'Inter', sans-serif;
+					font-weight: 500;
+					font-size: 1.6rem;
+					margin: .6em .2em .6em .1em;
+					border-bottom: 2px dashed rgba(7, 7, 7, .2);
+				}
+			}
+		}
+		@media screen and (max-width: 1300px) {
+			.chart-box {
+			min-width: 210px;
+			max-height: 500px;
+			header {
+				h2 {
+					font-size: 1rem;
+				}
+			}
+			}
+		}
+
+		@media screen and (max-width: 1000px) {
+			grid-template-columns: repeat(2, minmax(240px, 1fr));
+			grid-template-rows: 1fr 1fr;
+			height: auto;
+			.chart-box {
+			min-width: 250px;
+			max-height: 500px;
+			header {
+				h2 {
+					font-size: 1.2rem;
+				}
+			}
+			}
+		}
+
+		@media screen and (max-width: 765px) {
+			grid-template-columns: repeat(1, minmax(240px, 1fr));
+			grid-template-rows: 1fr 1fr 1fr;
+			height: auto;
+			padding-top: 2em;
+			margin-top: 0em;
+			.chart-box {
+			min-width: 300px;
+			max-height: 500px;
+			header {
+				h2 {
+					font-size: 1.6rem;
+				}
+			}
+			}
+		}
+		@media screen and (max-width: 400px) {
+			.chart-box {
+				min-width: 240px;
+				max-height: 500px;
+			}
+		}
+	#grafica {
+		max-width: 400px;
+	}
+	// .top-language {
+	// 	border: 1px solid red;
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	.top-language-chart {
+	// 		border: 1px solid green;
+	// 		display: flex;
+	// 		flex-direction: row;
+	// 	}
+	// }
+ `;
 
 export default Chart
